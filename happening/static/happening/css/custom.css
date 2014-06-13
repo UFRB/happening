@@ -1,0 +1,145 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 120px;
+  font-family: 'Dosis', 'sans-serif';
+  font-weight: '500';
+}
+
+.navbar {
+  min-height: 80px;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top {
+  background-color: #2966bf;
+}
+
+.navbar-nav a {
+  font-family: 'Dosis', 'sans-serif';
+  font-weight: '800';
+  font-size: 1.4em;
+  color: #FFF !important;
+}
+
+.navbar .container {
+  padding-top: 10px;
+  padding-bottom: 12px;
+  position: relative;
+}
+
+.navbar-inverse {
+  background-color: #f5f5f5;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  color: #FFF !important;
+  font-size: 2em;
+}
+
+.caption h4 {
+  margin-top: 5px;
+}
+
+.caption h4 a {
+  font-family: 'Dosis', 'sans-serif';
+  font-weight: '700';
+  color: #1C2130;
+}
+
+.col-xs-12 {
+  padding-bottom: 20px;
+}
+
+.caption {
+  height: 65px;
+}
+
+.event-list {
+  padding-top: 10px;
+  height: auto;
+}
+
+/*.jumbotron {
+  padding: 0px;
+  margin-bottom: 30px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.14286;
+  color: inherit;
+  background-color: rgb(238, 238, 238);
+}*/
+
+footer {
+  height: 100px;
+  background-color: #2966bf;
+  bottom: 0;
+  position: relative;
+  width: 100%;
+}
+
+.identification {
+  padding-top: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.thumbnail {
+  padding: 0px !important;
+}
+
+.event-details {
+  background: none repeat scroll 0% 0% #e2f2fa;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.date {
+  padding: 7px;
+  font-size: 14px;
+  font-family: 'Dosis', 'sans-serif';
+  font-weight: '500';
+  color: #4d4d4d;
+  margin-bottom: -8px;
+}
+
+.date span {
+  color: #cd9b00;
+}
+
+.city {
+  padding: 7px;
+  font-size: 16px;
+  font-family: 'Dosis', 'sans-serif';
+  font-weight: '500'
+  color: #4d4d4d;
+}
+
+.city span {
+  color:#1C2130;
+}
+
+.thumb {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  border-radius: 3px 3px 0 0;
+}
+
+.thumb:hover {
+  opacity: 0.9;
+}
+
+.btn-search {
+  background-color: #2966bf;
+}
+
+.dropdown-toggle:hover {
+  background-color: #e2f2fa;
+}
+
+.dropdown-toggle:active {
+  background-color: #e2f2fa;
+}
+
+.search-area span {
+  color: #FFF;
+}
