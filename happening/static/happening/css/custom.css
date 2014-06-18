@@ -5,6 +5,7 @@ body {
   font-weight: '500';
 }
 
+/* header rules */
 .navbar {
   min-height: 80px;
 }
@@ -18,6 +19,10 @@ body {
   font-weight: '800';
   font-size: 1.4em;
   color: #FFF !important;
+}
+
+.navbar-nav a:hover {
+  opacity: 0.8;
 }
 
 .navbar .container {
@@ -36,6 +41,7 @@ body {
   font-size: 2em;
 }
 
+/* homepage content rules */
 .caption h4 {
   margin-top: 5px;
 }
@@ -57,30 +63,6 @@ body {
 .event-list {
   padding-top: 10px;
   height: auto;
-}
-
-/*.jumbotron {
-  padding: 0px;
-  margin-bottom: 30px;
-  font-size: 21px;
-  font-weight: 200;
-  line-height: 2.14286;
-  color: inherit;
-  background-color: rgb(238, 238, 238);
-}*/
-
-footer {
-  height: 100px;
-  background-color: #2966bf;
-  bottom: 0;
-  position: relative;
-  width: 100%;
-}
-
-.identification {
-  padding-top: 30px;
-  text-align: center;
-  color: #fff;
 }
 
 .thumbnail {
@@ -109,7 +91,7 @@ footer {
   padding: 7px;
   font-size: 16px;
   font-family: 'Dosis', 'sans-serif';
-  font-weight: '500'
+  font-weight: '500';
   color: #4d4d4d;
 }
 
@@ -128,6 +110,7 @@ footer {
   opacity: 0.9;
 }
 
+/* filter/search bar rules */
 .btn-search {
   background-color: #2966bf;
 }
@@ -142,4 +125,80 @@ footer {
 
 .search-area span {
   color: #FFF;
+}
+
+/* event-detail page rules */
+.event-details-bar {
+  font-size: 1.4em;
+  color: #434343;
+  padding-top: 20px;
+}
+
+.event-register {
+  padding-top: 15px;
+}
+
+.event-register-msg {
+  margin: 0;
+  font-weight: 700;
+}
+
+.event-register-deadline {
+  margin: 0;
+  font-size: 1em;
+}
+
+.tab-content {
+  padding-top:10px;
+} 
+
+.tab-content p {
+  font-size: 1.2em;
+}
+
+.nav-tabs {
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+.nav-tabs li a:hover {
+  background-color: #e2f2fa;
+  border-color: #e2f2fa;
+}
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0 0 4px 4px;
+  padding: 10px;
+}
+
+/* footer rules */
+footer {
+  height: 120px;
+  bottom: 0;
+  background-color: #2966bf;
+  position: relative;
+  width: 100%;
+  color: #fff
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover{
+  text-decoration: none;
+  color: #82a8e0;
+}
+
+.identification {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.credits {
+  padding-top: 0px;
+  text-align: center;
 }
