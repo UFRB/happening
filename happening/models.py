@@ -29,6 +29,8 @@ class Event(models.Model):
     registration_opens = models.DateTimeField()
     registration_closes = models.DateTimeField()
     published = models.BooleanField(default=False)
+    creation_date = models.DateTimeField(auto_now_add=True)
+    last_modified = models.DateTimeField(auto_now=True)
 
     objects = models.Manager()
     active = ActiveManager()
