@@ -1,0 +1,27 @@
+{% load i18n %}
+
+<div class="event-list">
+  {% for event in event_list %}
+    <div class="col-xs-12 col-md-3">
+      <div class="thumbnail">
+        <a href="#"><img class="thumb" src="http://lorempixel.com/300/200/nature" alt="..."></a>
+        <div class="caption">
+          <h4><a href="">{{ event.name }}</a></h4>
+        </div>
+        <div class="event-details">
+          <div class="date">
+            <span class="glyphicon glyphicon-calendar"></span> 04 - 05 mai 14
+          </div>
+          <div class="city">
+            <span class="glyphicon glyphicon-globe"></span> {{ event.city }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+  {% empty %}
+    <div class="alert alert-danger">
+      {% trans "No events found." %}
+    </div>
+  {% endfor %}
+</div>

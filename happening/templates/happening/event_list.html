@@ -1,16 +1,11 @@
 {% extends 'base.html' %}
 {% load i18n %}
+{% load happening_tags %}
 
 {% block filter_search_bar %}
   {% include "filter_search_bar.html" %}
 {% endblock filter_search_bar %}
 
 {% block content %}
-  <div data-role="content">
-    {% for event in event_list %}
-      {{ event.name }}
-    {% empty %}
-      {% trans "No events found" %}
-    {% endfor %}
-  </div>
+  {% show_events event_list %}
 {% endblock content %}
