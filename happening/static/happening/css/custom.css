@@ -1,4 +1,4 @@
-/* Move down content because we have a fixed navbar that is 50px tall */
+/* Move down content because we have a fixed navbar that is 120px tall */
 body {
   padding-top: 120px;
   font-family: 'Dosis', 'sans-serif';
@@ -63,6 +63,8 @@ body {
 .event-list {
   padding-top: 10px;
   height: auto;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 .thumbnail {
@@ -150,7 +152,7 @@ body {
 
 .tab-content {
   padding-top:10px;
-} 
+}
 
 .tab-content p {
   font-size: 1.2em;
