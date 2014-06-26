@@ -32,3 +32,10 @@ class IndexTest(TestCase):
         self.event_unpublished.make(_quantity=1)
         response = client.get(reverse('index'))
         self.assertEqual(response.context_data.get('event_list').count(), 1)
+
+
+class AboutTest(TestCase):
+
+    def test_about_response(self):
+        response = client.get(reverse('about'))
+        self.assertEqual(response.status_code, 200)
