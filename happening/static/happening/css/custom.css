@@ -36,9 +36,11 @@ body {
 }
 
 .navbar-brand {
-  font-weight: 800;
-  color: #FFF !important;
-  font-size: 2em;
+  padding-top: 7px
+}
+
+.navbar-brand img {
+  height: 33px;
 }
 
 /* homepage content rules */
